@@ -1,0 +1,87 @@
+:root {
+  --git-orange: #f05133;
+  --git-orange-soft: #f0513322;
+  --git-blue: #3b82f6;
+  --git-gold: #eab308;
+  --git-green: #22c55e;
+  --git-red: #ef4444;
+}
+
+.slidev-layout {
+  font-family:
+    "Noto Sans CJK SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei",
+    system-ui, sans-serif;
+}
+
+.slidev-layout.default {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slidev-layout.two-columns {
+  align-items: center;
+}
+
+.slidev-layout.two-columns > div {
+  align-self: center;
+}
+
+.slidev-layout code,
+.slidev-layout pre,
+.slidev-layout kbd {
+  font-family:
+    "JetBrains Mono", "Fira Code", "Cascadia Code", "Noto Sans Mono CJK SC",
+    ui-monospace, monospace;
+}
+
+.slidev-layout kbd {
+  padding: 0.1rem 0.4rem;
+  border-radius: 0.3rem;
+  border: 1px solid rgba(148, 163, 184, 0.5);
+  background: rgba(148, 163, 184, 0.12);
+  font-size: 0.85em;
+}
+
+.pain {
+  color: var(--git-red);
+  font-weight: 600;
+}
+
+.relief {
+  color: var(--git-green);
+  font-weight: 600;
+}
+
+.cmd {
+  color: var(--git-orange);
+  font-weight: 600;
+}
+
+.slidev-vclick-target {
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+
+.slidev-vclick-anim-rise .slidev-vclick-hidden {
+  opacity: 0;
+  transform: translateY(14px);
+}
+
+.fake-versioning code {
+  color: var(--git-red);
+}
+
+.crash-card {
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+}
+
+.crash-card .tag {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.6;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "git-slides",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "从崩溃到协作：Git 实战课程幻灯片",
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^52.19.1",
+    "@slidev/theme-default": "^0.25.0"
+  },
+  "dependencies": {
+    "vue": "^3.5.42"
+  }
+}
